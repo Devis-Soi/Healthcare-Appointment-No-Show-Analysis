@@ -56,7 +56,7 @@ GROUP BY SMS_received
 ORDER BY SMS_received;
 
 
--- 3. Compare SMS reminder effectiveness
+-- 3. Compare no-show rates by SMS status
 -- within the same waiting-time categories
 
 WITH waiting_times AS (
